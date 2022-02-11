@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Redux Counter App</title>
+    <link
+      href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../style.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/redux/5.0.0-alpha.0/redux.js"></script>
+  </head>
+  <body>
+    <article>
+      <h2 class="text-4xl text-center mt-10 mb-10 font-bold text-gray-700">
+        Redux Counter App
+      </h2>
+      <h1 class="text-center font-bold text-4xl">1</h1>
+      <div class="steps text-center mt-2">
+        <h4 class="font-bold text-xl mb-2">Steps</h4>
+        <button class="bg-gray-400 text-white px-3 py-2 rounded-md mx-2 step-5">
+          5
+        </button>
+        <button
+          class="bg-gray-400 text-white px-3 py-2 rounded-md mx-2 step-10"
+        >
+          10
+        </button>
+        <button
+          class="bg-gray-400 text-white px-3 py-2 rounded-md mx-2 step-15"
+        >
+          15
+        </button>
+      </div>
+      <div class="text-center py-6">
+        <button
+          class="increment border-2 bg-gray-600 rounded text-white px-4 py-2"
+        >
+          Increment
+        </button>
+        <button
+          class="
+            decrement
+            border-2
+            mx-2
+            bg-gray-600
+            rounded
+            text-white
+            px-4
+            py-2
+          "
+        >
+          Decrement
+        </button>
+        <button class="reset border-2 bg-gray-600 rounded text-white px-4 py-2">
+          Reset
+        </button>
+      </div>
+    </article>
+    <script src="./index.js"></script>
+  </body>
+</html>
